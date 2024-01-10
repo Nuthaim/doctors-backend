@@ -3,7 +3,7 @@ const jsonServer=require('json-server')
 //create server application using json server
 const restServer=jsonServer.create()
 //set up path for db.json 
-const router=jsonServer.router('db.json')
+// const router=jsonServer.router()
 //return a middleware used by json server
 const middleware=jsonServer.defaults()
 //setup port 
